@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="container vertical-padding">
+  {%- if site.exhibits.size > 0 -%}
+    <h3 style="padding-top: 28px">{{ page.list_title | default: "Posts" }}</h3>
+    <div class="row g-2 g-lg-3" style="padding-top: 26px">
+      {%- for exhibit in site.exhibits -%}
+      <div class="col-sm-12 col-md-3 d-flex align-items-stretch" >
+        <div class="card" style="width: 100%">
+          <a href="{{exhibit.url}}"> <img src="{{exhibit.image-url}}" class="card-img-top" alt="..." style="height: 250px;object-fit: cover"></a>
+          <div class="card-body">
+            <h5 class="card-title">{{exhibit.title}}</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Creator
+                <span class="">{{exhibit.creator}}</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center" >
+                licence
+                <span class=""><a href="{{exhibit.licence-url}}" class="text-muted">{{exhibit.licence}}</a></span>
+              </li>
+              <li class="list-group-item"></li>
+            </ul>
+            <a href="{{exhibit.url}}" class="btn btn-primary">Explore</a>
+          </div>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+
+<!--    <ul class="post-list">-->
+<!--      {%- for post in site.exhibits -%}-->
+<!--      <li>-->
+<!--        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}-->
+<!--        <span class="post-meta">{{ post.date | date: date_format }}</span>-->
+<!--        <h3>-->
+<!--          <a class="post-link" href="{{ post.url | relative_url }}">-->
+<!--            {{ post.title | escape }}-->
+<!--          </a>-->
+<!--        </h3>-->
+<!--        {%- if site.show_excerpts -%}-->
+<!--          {{ post.excerpt }}-->
+<!--        {%- endif -%}-->
+<!--      </li>-->
+<!--      {%- endfor -%}-->
+<!--    </ul>-->
+  {%- endif -%}
+
+</div>

@@ -1,0 +1,14 @@
+---
+layout: none
+---
+[
+{% for exhibit in site.exhibits %}
+{
+"title"    : "{{ exhibit.title | escape }}",
+"creator" : "{{ exhibit.creator | join: ', ' }}",
+"url"      : "{{ site.baseurl }}{{ exhibit.url }}",
+"img": "{{ exhibit.image-url | join: ', ' }}",
+"content": {{ exhibit.content | jsonify }}
+} {% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

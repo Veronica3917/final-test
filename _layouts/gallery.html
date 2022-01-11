@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="container vertical-padding">
+    <h3 style="padding-top: 28px">{{ page.title }}</h3>
+    <div class="row g-2 g-lg-3" style="padding-top: 26px">
+
+        <div class="col-sm-12 col-md-3 d-flex align-items-stretch" >
+            <div class="card" style="width: 100%">
+                <img src="{{page.image-url}}" class="card-img-top" alt="..." style="height: 250px;object-fit: cover">
+                <div class="card-body">
+                    <h5 class="card-title">{{page.title}}</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Creator
+                            <span class="">{{page.creator}}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" >
+                            licence
+                            <span class=""><a href="{{page.licence-url}}" class="text-muted">{{page.licence}}</a></span>
+                        </li>
+                        <li class="list-group-item"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-9 d-flex align-items-stretch" >
+            <div class="card" style="width: 100%">
+                <article class="post">
+                    <div class="post-content" style="padding: 26px">
+                        {{ content }}
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
