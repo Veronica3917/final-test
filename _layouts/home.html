@@ -5,6 +5,7 @@ layout: default
 <div class="container vertical-padding">
   {%- if site.exhibits.size > 0 -%}
     <h3 style="padding-top: 28px">{{ page.list_title | default: "Posts" }}</h3>
+    <title>{{ page.title }}</title>
     <div class="row g-2 g-lg-3" style="padding-top: 26px">
       {%- for exhibit in site.exhibits -%}
       <div class="col-sm-12 col-md-3 d-flex align-items-stretch" >
