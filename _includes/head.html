@@ -39,7 +39,7 @@
                   <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                     {% assign groups = site.exhibits | group_by: "creator" %}
                     {%- for group in groups -%}
-                    <li><a class="dropdown-item" href="https://commons.wikimedia.org/wiki/User:{{ group.name }}">{{ group.name | escape }}</a></li>
+                    <li><a class="dropdown-item" href="{{ group.items[0].creator-link }}">{{ group.name }}</a></li>
                     {%- endfor -%}
                   </ul>
                 </li>

@@ -2,6 +2,7 @@
 layout: gallery
 title: The Rat Bronze Head 
 creator: Vmenkov
+creator-link: https://commons.wikimedia.org/wiki/User:Vmenkov
 licence: CC BY-SA 3.0
 licence-url: https://creativecommons.org/licenses/by-sa/3.0/deed.en
 image-url: https://upload.wikimedia.org/wikipedia/commons/d/dc/VM_Yuanmingyuan_Haiyantang_Mouse_4428.jpg

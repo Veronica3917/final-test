@@ -2,6 +2,7 @@
 layout: gallery
 title: The Dog Bronze Head (lost)
 creator: Gisling
+creator-link: https://commons.wikimedia.org/wiki/User:Gisling
 licence: CC-BY-SA-3.0
 licence-url: https://creativecommons.org/licenses/by-sa/3.0/
 image-url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/%E5%9C%86%E6%98%8E%E5%9B%AD%E7%8B%97%E9%A6%96.JPG/1200px-%E5%9C%86%E6%98%8E%E5%9B%AD%E7%8B%97%E9%A6%96.JPG

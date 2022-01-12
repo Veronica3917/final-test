@@ -2,6 +2,7 @@
 layout: gallery
 title: The Pig Bronze Head
 creator: Peter Potrowl
+creator-link : https://commons.wikimedia.org/wiki/User:Peter17
 licence: CC-BY-3.0
 licence-url: https://creativecommons.org/licenses/by/3.0/
 image-url: https://upload.wikimedia.org/wikipedia/commons/6/68/Beijing_-_Pig_head_of_the_old_summer_palace_-_reproduction.jpg
