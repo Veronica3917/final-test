@@ -20,7 +20,7 @@
 
 title: The Bronze Heads
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "the-bronze-heads-project.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "the-bronze-heads.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 collections:
